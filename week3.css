@@ -1,0 +1,35 @@
+body{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+input{
+    outline: none;
+}
+@font-face {
+    font-family:nan;
+    src: url(font/Witch\ Magic.otf);
+}
+@font-face {
+    font-family: fa;
+    src: url(font/Royalacid.ttf);
+}
+#header1{
+    font-family: fa;
+}
+#Btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: nan;
+    outline: none;
+}
+#Btn:hover{
+    color: rgb(73, 226, 17);
+}
+#Number1{
+    color: red;
+}
+#Number2{
+    color: rgb(56, 245, 23);
+}
